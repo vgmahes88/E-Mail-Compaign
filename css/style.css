@@ -1,0 +1,734 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/Lato-Regular.woff') format('woff'), url('Lato-Regular.ttf')  format('truetype'), 
+	   url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body,.ui-widget
+{
+	font-family: 'Lato-Regular';
+	margin: 0;
+}
+.container
+{
+	width: 100%;
+	margin: 0 auto;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+}
+.row
+{
+	/*margin-left:-15px;
+	margin-right:-15px;*/
+	clear: both;
+}
+.col1
+{
+	width:8.33%;
+	float:left;
+}
+.col2
+{
+	width:16.66%;
+	float:left;
+}
+.col3
+{
+	width:25%;
+	float:left;
+}
+.col4
+{
+	width:33.33%;
+	float:left;
+}
+.col5
+{
+	width:41.66%;
+	float:left;
+}
+.col6
+{
+	width:50%;
+	float:left;
+}
+.col7
+{
+	width:58.33%;
+	float:left;
+}
+.col8
+{
+	width:66.66%;
+	float:left;
+}
+.col9
+{
+	width:75%;
+	float:left;
+}
+.col10
+{
+	width:83.33%;
+	float:left;
+}
+.col11
+{
+	width:91.66%;
+	float:left;
+}
+.col12
+{
+	width:100%;
+	float:left;
+}
+.my_apps
+{
+	float:right;
+	margin-top: 2%;
+}
+.my_apps ul
+{
+	padding:0px;
+	margin-top: 0px;
+}
+.my_apps ul li
+{
+	list-style:none;
+	float:left;
+	padding:10px;
+}
+.header
+{
+	background: #fff;
+	min-height: 65px;
+	border-bottom: 1px solid #ccc;
+}
+.logo_right input
+{
+	width:90%;
+	height: 36px;
+	background: #FCFCFC;
+	border: 1px solid #ccc;
+}
+.logo_right,.logo_left
+{
+	padding:10px;
+}
+.logo_right span
+{
+	
+}
+.logo_right span i
+{
+	background: #247EF3;
+	font-size: 17px;
+	height: 18px;
+	padding:8.9px;
+	vertical-align: top;
+	color:#fff;
+}
+.sidebar ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+.sidebar ul li
+{
+	list-style:none;
+	line-height:35px;
+}
+.sidebar ul li a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.sidebar
+{
+	
+	background:#333A45;
+	padding:25px;
+}
+.bodyconleft ul 
+{
+	padding:0px;
+	margin:2px;
+}
+.bodyconleft ul  li
+{
+	list-style:none;
+	float:left;
+	padding:10px;
+	
+}
+.bodyconleft ul  li a
+{
+	text-decoration:none;
+	color:#000;
+	
+}
+.emailappoption
+{
+	clear:both;
+	right: 40px;
+	position: relative;
+}
+.emailappoption ul
+{
+	margin:0px;
+}
+.emailappoption ul li
+{
+	list-style:none;
+	padding:10px;
+	float:left;
+}
+.emailappoption ul li i
+{
+	color: #555;
+}
+.emailappoption ul li:hover
+{
+	cursor:pointer
+}
+.popup_slide,.popup_slide2,.popup_slide3 {
+  top:18%;
+  position:absolute;
+  z-index:1050;
+  background:#fff;
+  width:13%;
+  border:1px solid #ccc;
+}
+.popup_slide,.popup_slide2
+{
+	display:none;
+	clear:both;
+	margin:0px;
+}
+.popup_slide ul,
+.popup_slide2 ul ,
+.popup_slide3 ul
+{
+	padding:10px;
+	margin:0px;
+}
+.popup_slide ul li,
+.popup_slide2 ul li,
+.popup_slide3 ul li
+{
+	list-style:none;
+	color:#fff;
+	line-height:35px;
+}
+.popup_slide ul li a,
+.popup_slide2 ul li a,
+.popup_slide3 ul li a
+{
+	font-family: 'Lato-Regular';
+	text-decoration:none;
+	color:#000;
+}
+.popup_slide3
+{
+	display:none;
+	clear:both;
+}
+.my_apps ul li i:hover
+{
+ cursor:pointer;
+}
+.stream_show
+{
+	display:none;
+}
+.shw_cts
+{
+	border-bottom: 1px solid #ccc;
+	height: 50px;
+}
+.shw_cts h4
+{
+	margin-top:17px;
+}
+.stream_menu ul
+{
+	margin:0px;
+	float: right;
+	margin-top: 8px;
+}
+.stream_menu ul li
+{
+	float:left;
+	list-style:none;
+	padding:10px;
+}
+.stream_head,
+.stream_menu
+{
+	width:50%;
+	float:left;
+}
+.stream_maincon
+{
+	clear:both;
+}
+.stream_con ul li a i
+{
+	padding:4px;
+}
+.stream_con ul li a
+{
+	font-family: 'Lato-Regular';
+}
+
+.stream_con .ui-widget-header,
+.stream_con .ui-state-active, 
+.stream_con .ui-widget-content .ui-state-active, 
+.stream_con .ui-widget-header .ui-state-active, a.ui-button:active, 
+.stream_con .ui-button:active, 
+.stream_con .ui-button.ui-state-active:hover 
+{
+	border:none !important;
+	background:none !important;
+}
+.stream_con .ui-state-active a, .ui-state-active a:link
+{
+	color:#000;
+}
+.stream_con .ui-state-default, 
+.stream_con .ui-widget-content .ui-state-default, 
+.stream_con .ui-widget-header .ui-state-default
+{
+	border:none !important;
+	background:none !important;
+}
+#tabs-1 textarea
+{
+	width:100%;
+	height:150px;
+	resize:none;
+	text-align:left;
+	margin:0px;
+	
+}
+.stream_con .ui-tabs .ui-tabs-panel {
+  
+    padding: 10px;
+}
+.stream_con .ui-widget.ui-widget-content
+{
+	border:none !important;
+}
+#streamstobetabs .ui-widget-content
+{
+	border:1px solid #ccc !important;
+	height: 350px;
+	display: block;
+	overflow: auto;
+}
+.stream_sidebar ul
+{
+	padding:0px;
+}
+.stream_sidebar ul li
+{
+	list-style: none;
+	background: #ccc;
+	line-height: 54px;
+	margin-top: 29%;
+	padding: 0px;
+	width: 100%;
+}
+.stream_sidebar ul li a
+{
+	text-align:center;
+	padding:10px;
+}
+.stream_sidebar ul li i
+{
+	background: #fff;
+	padding: 12px;
+}
+.streamstobetabs
+{
+	font-family: 'Lato-Regular';
+}
+.stream_con_cc p{
+	font-family: 'Lato-Regular';
+	line-height:35px;
+}
+.stream_con_cc span
+{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.stream_con_cc span input{
+	font-family: 'Lato-Regular';
+	height: 50px;
+	width:94%;
+	
+}
+.create_note
+{
+	border:1px solid #ccc;
+	width:100%;
+	height:300px;
+}
+.create_note input
+{
+	font-family: 'Lato-Regular';
+	height:100px;
+	width:100%;
+	background:#CFEEBE;
+	margin:0px;
+}
+.task_event
+{
+	border:1px solid #ccc;
+	width:100%;
+	height:150px;
+}
+.task_event span
+{
+	border-bottom:1px dashed #000;
+}
+.attachment_src img
+{
+	width:100%;
+}
+.attachment_con
+{
+	display:none;
+	background:#111;
+	overflow:auto;
+}
+.attachment_con img
+{
+	padding:10px;
+	width:80%;
+	height:80%;
+}
+.notification
+{
+	position:absolute;
+	top:65px;
+	z-index:1050;
+	border:1px solid #ccc;
+	background:#fff;
+	width:19.5%;
+	height:500px;
+	display:none;
+	left:80%;
+}
+.notification_head h5
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	border-bottom:1px solid #ccc;
+	padding:10px;
+	
+}
+.setting_mail
+{
+	display:none;
+	margin-left:2%;
+	overflow: auto;
+	
+}
+.setting_mail table 
+{
+	width:95%;
+	border-bottom: 1px dashed #ccc;
+	
+}
+.setting_mail table tr
+{
+	line-height:35px;
+	
+}
+.setting_mail table tr:hover
+{
+	background: #edd7d7;
+}
+.setting_mail table tr td
+{
+	text-align:left;
+	
+}
+.setting_mail table tr td:nth-child(1)
+{
+	width:35%;
+}
+.setting_mail table tr td:nth-child(2)
+{
+	width:65%;
+}
+.mail_org
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.access_version ul
+{
+	margin:0px;
+	
+}
+.access_version ul li
+{
+	line-height:30px;
+}
+.access_version ul li a
+{
+	text-decoration:none;
+	color:#000; 	
+}
+.mail_uread_con
+{
+	clear:both;
+	background:#F5F5F5;
+}
+.mail_uread_con table
+{
+	width:100%;
+}
+.mail_uread_con table tr td:hover
+{
+	cursor:pointer;
+}
+.mail_uread_con table tr td:nth-child(1)
+{
+	text-align:center;
+}
+.mail_uread_con table tr td:nth-child(1),
+.mail_uread_con table tr td:nth-child(2),
+.mail_uread_con table tr td:nth-child(3),
+.mail_uread_con table tr td:nth-child(6),
+.mail_uread_con table tr td:nth-child(7)
+{
+	width:4%;
+}
+.mail_uread_con table tr td:nth-child(4)
+{
+	width:30%;
+}
+.mail_uread_con table tr td:nth-child(2) i{
+	color: #EFC618;
+}
+.mail_uread_con table tr td:nth-child(5)
+{
+	width:50%;
+}
+.mail_uread_con table tr td input
+{
+	vertical-align:middle;
+}
+.mail_uread_con table tr
+{
+	line-height:39px;
+	
+}
+.mail_uread_con table tr td
+{
+	border-bottom:1px solid #ccc;
+}
+.email_description_cc
+{
+	display:none;
+	clear:both;
+}
+.email_description_cc span span:nth-child(1)
+{
+	font-weight:bold;
+	font-size:18px;
+}
+.email_des_format
+{
+	padding: 10px;
+	
+}
+.user table
+{
+	width:100%;
+}
+.email_des_right ul
+{
+	float:right;
+}
+.email_des_right ul li
+{
+	float:left;
+	list-style:none;
+}
+.email_des_right ul li a
+{
+	color:#000;
+	padding:10px;
+}
+.main_des_row
+{
+	border-bottom: 1px solid #ccc;
+	height: 40px;
+}
+.user table tr td:nth-child(1)
+{
+	width:2%;
+}
+.user table tr td:nth-child(1) img
+{
+	width:50px;
+	height:50px;
+	
+}
+.user table tr td:nth-child(2)
+{
+	width:98%;
+	vertical-align: top;
+}
+.user table tr td a
+{
+	font-size:20px;
+	font-weight:bold;
+}
+.usr_des_right ul 
+{
+	float:right;
+}
+.usr_des_right ul li
+{
+	list-style:none;
+	float:left;
+	
+}
+.usr_des_right ul li a
+{
+	padding:10px;
+}
+.file_sources
+{
+	width:200px !important;
+	height:200px !important;
+}
+.file_sources:hover{
+	content:"download";
+}
+.main_email_body {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 356px;
+}
+.mail_cc_timing
+{
+	border-bottom: 1px dashed #ccc;
+}
+.reply_textarea
+{
+	width:95%;
+	height:100px;
+	resize:none;
+	text-align:left;
+}
+.mail_reply table{
+	width:100%;
+}
+.mail_reply table tr td:nth-child(2)
+{
+	vertical-align:top;
+}
+.mail_reply table tr td:nth-child(1)
+{
+	width:2%;
+	vertical-align:top;
+}
+.mail_reply table tr td img
+{
+	width:100px;
+	height:100px;
+}
+.mail_reply table tr td:nth-child(2) span a{
+	padding:5px;
+	color:#ccc;
+	
+}
+#mail_setting_tabs .ui-widget-header {
+    border:none;
+    background:none;
+    border-bottom:1px solid #ccc;
+	padding-bottom: 6px;
+}
+#mail_setting_tabs .ui-state-active
+{
+	background:none;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:2px solid #c23719;
+}
+#mail_setting_tabs  ul li
+{
+	background:none !important;
+}
+#mail_setting_tabs  ul li a
+{
+	border:none;
+}
+#mail_setting_tabs .ui-state-default
+{
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	
+}
+.ui-widget.ui-widget-content
+{
+	border:none !important;
+}
+.user_logout
+{
+	top: 67px;
+	position: absolute;
+	background: #fff;
+	z-index: 1050;
+	display: none;
+	left: auto;
+	right: 0;
+	height: 150px;
+	width: 20%;
+	border: 1px solid #ccc;
+}
+.user_log
+{
+	bottom: 0px;
+	position: absolute;
+	background: #ccc;
+	width: 100%;
+}
+.user_log button
+{
+	float: right;
+	color:#fff;
+	background:#000;
+	border:0;
+	font-size:14px;
+	padding:4px;
+	border-radius:4px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.sidebar ul li a i
+{
+	padding:8px;
+}
+.composemail button
+{
+	background: red;
+	border: 0px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+.composemail button:hover{
+	cursor:pointer;
+}
